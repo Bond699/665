@@ -12,7 +12,7 @@ public class Main {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
 		LocalDate xmas = LocalDate.parse("22/12/1994", formatter);
-		Person student = new Person("John", "Doe", xmas);
+		Person student = new Person("Josh", "Bond", xmas);
 
 		System.out.println(student.calculateAge());
 	}
