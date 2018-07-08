@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>edu.bu.cs665</groupId>
-	<artifactId>Example-1</artifactId>
+	<artifactId>Assignment-1</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Example-1</name>
+	<name>Assignment-1</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -91,8 +91,7 @@
 					<failOnViolation>false</failOnViolation>
 				</configuration>
 			</plugin>
-
-
+			
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>

@@ -1,20 +1,24 @@
 package edu.bu.met.cs665;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import edu.bu.met.cs665.assignment1.VendingMachine;
 
-import edu.bu.met.cs665.example1.Person;
+/**.
+ *  //TODO
+ * 
+ *  @author Josh Bond
+ *  @version Jul 7, 2018
+ */
 
 public class Main {
 
-	public static void main(String[] args) {
+  /**
+   * Place a description of your method here.
+   * @param args none
+   */
+  public static void main(String[] args) {
+   
+    VendingMachine vm = new VendingMachine();
+    vm.start();
 
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
-		LocalDate xmas = LocalDate.parse("22/12/1994", formatter);
-		Person student = new Person("Josh", "Bond", xmas);
-
-		System.out.println(student.calculateAge());
-	}
-
+  }
 }
