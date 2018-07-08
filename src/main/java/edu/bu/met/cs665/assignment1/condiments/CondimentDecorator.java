@@ -1,5 +1,7 @@
 package edu.bu.met.cs665.assignment1.condiments;
 
+import edu.bu.met.cs665.assignment1.behaviors.BrewBehavior;
+import edu.bu.met.cs665.assignment1.behaviors.BrewNoWay;
 import edu.bu.met.cs665.assignment1.beverage.Beverage;
 
 /**.
@@ -12,6 +14,11 @@ import edu.bu.met.cs665.assignment1.beverage.Beverage;
 public abstract class CondimentDecorator implements Beverage {
   private String description = "";
   private int quantity;
+  protected BrewBehavior brewBehavior;
+  
+  public CondimentDecorator() {
+    brewBehavior = new BrewNoWay();
+  }
   
   public String getDescription() {
     return description;

@@ -24,7 +24,7 @@ public class Sugar extends CondimentDecorator {
   }
   
   public BrewBehavior getBrewBehavior() {
-    return null;
+    return this.brewBehavior;
   }
   
 }
