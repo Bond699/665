@@ -1,7 +1,14 @@
 package edu.bu.met.cs665.assignment1;
 
+import edu.bu.met.cs665.assignment1.beverage.Americano;
+import edu.bu.met.cs665.assignment1.beverage.Beverage;
+import edu.bu.met.cs665.assignment1.beverage.BlackTea;
+import edu.bu.met.cs665.assignment1.beverage.Espresso;
+import edu.bu.met.cs665.assignment1.beverage.GreenTea;
+import edu.bu.met.cs665.assignment1.beverage.LatteMacchiato;
+import edu.bu.met.cs665.assignment1.beverage.YellowTea;
+
 import java.util.InputMismatchException;
-import edu.bu.met.cs665.assignment1.beverage.*;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;

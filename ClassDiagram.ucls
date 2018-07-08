@@ -4,7 +4,7 @@
   <class id="1" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewNoWay" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewNoWay.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="708" y="601"/>    
+    <position height="-1" width="-1" x="779" y="678"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,7 +14,7 @@
   <class id="2" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewMedium" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewMedium.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="504" y="549"/>    
+    <position height="-1" width="-1" x="697" y="551"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,7 +24,7 @@
   <class id="3" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewFast" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewFast.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="503" y="422"/>    
+    <position height="-1" width="-1" x="698" y="430"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -34,7 +34,7 @@
   <class id="4" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewVerySlow" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewVerySlow.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="909" y="612"/>    
+    <position height="-1" width="-1" x="982" y="679"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -44,7 +44,7 @@
   <class id="5" language="java" name="edu.bu.met.cs665.assignment1.beverage.GreenTea" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/beverage/GreenTea.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1215" y="710"/>    
+    <position height="-1" width="-1" x="1226" y="681"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -54,7 +54,7 @@
   <class id="6" language="java" name="edu.bu.met.cs665.assignment1.beverage.Americano" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/beverage/Americano.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1756" y="605"/>    
+    <position height="-1" width="-1" x="1784" y="584"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -64,7 +64,7 @@
   <class id="7" language="java" name="edu.bu.met.cs665.assignment1.beverage.YellowTea" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/beverage/YellowTea.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1438" y="710"/>    
+    <position height="-1" width="-1" x="1441" y="683"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,7 +84,7 @@
   <class id="9" language="java" name="edu.bu.met.cs665.assignment1.beverage.BlackTea" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/beverage/BlackTea.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1661" y="710"/>    
+    <position height="-1" width="-1" x="1650" y="686"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -95,7 +95,7 @@
     project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewBehavior.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="817" y="286"/>    
+    <position height="-1" width="-1" x="885" y="279"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -106,7 +106,7 @@
     project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/beverage/LatteMacchiato.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2004" y="599"/>    
+    <position height="-1" width="-1" x="2007" y="584"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -126,7 +126,7 @@
   <class id="13" language="java" name="edu.bu.met.cs665.assignment1.beverage.Espresso" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/beverage/Espresso.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2282" y="604"/>    
+    <position height="-1" width="-1" x="2228" y="584"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -147,7 +147,7 @@
     project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewVeryFast.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1107" y="578"/>    
+    <position height="-1" width="-1" x="1098" y="561"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -197,7 +197,7 @@
   <class id="20" language="java" name="edu.bu.met.cs665.assignment1.condiments.Milk" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/condiments/Milk.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2185" y="-48"/>    
+    <position height="-1" width="-1" x="2178" y="-47"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -207,7 +207,7 @@
   <class id="21" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewSlow" project="CS-655-Assignment-1" 
     file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewSlow.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1110" y="443"/>    
+    <position height="-1" width="-1" x="1098" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -224,116 +224,136 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="23">    
-    <end type="SOURCE" refId="22" navigable="false">      
-      <attribute id="24" name="brewBehavior"/>      
-      <multiplicity id="25" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="26">    
-    <end type="SOURCE" refId="16"/>    
-    <end type="TARGET" refId="19"/>  
-  </realization>  
-  <realization id="27">    
-    <end type="SOURCE" refId="22"/>    
-    <end type="TARGET" refId="19"/>  
-  </realization>  
-  <association id="28">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="29" name="brewBehavior"/>      
-      <multiplicity id="30" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="31">    
-    <end type="SOURCE" refId="21"/>    
-    <end type="TARGET" refId="10"/>  
-  </realization>  
-  <realization id="32">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="10"/>  
-  </realization>  
-  <realization id="33">    
-    <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="10"/>  
-  </realization>  
-  <generalization id="34">    
-    <end type="SOURCE" refId="20"/>    
-    <end type="TARGET" refId="16"/>  
-  </generalization>  
-  <generalization id="35">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="12"/>  
-  </generalization>  
-  <generalization id="36">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="22"/>  
-  </generalization>  
-  <generalization id="37">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="22"/>  
-  </generalization>  
-  <generalization id="38">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="16"/>  
-  </generalization>  
-  <association id="39">    
-    <bendpoint x="1641" y="194"/>    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="40" name="beverages"/>      
-      <multiplicity id="41" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="19" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="42">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="10"/>  
-  </realization>  
-  <realization id="43">    
+  <realization id="23">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="10"/>  
   </realization>  
-  <generalization id="44">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="12"/>  
-  </generalization>  
-  <realization id="45">    
-    <end type="SOURCE" refId="12"/>    
+  <realization id="24">    
+    <end type="SOURCE" refId="22"/>    
     <end type="TARGET" refId="19"/>  
   </realization>  
-  <generalization id="46">    
-    <end type="SOURCE" refId="9"/>    
+  <generalization id="25">    
+    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="12"/>  
   </generalization>  
-  <realization id="47">    
+  <generalization id="26">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="28">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="10"/>  
   </realization>  
-  <association id="48">    
+  <generalization id="29">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <realization id="31">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <realization id="33">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="34">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="35" name="brewBehavior">        
+        <position height="0" width="0" x="68" y="-7"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="1">        
+        <position height="0" width="0" x="68" y="-7"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="39">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="40">    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="49" name="menu"/>      
-      <multiplicity id="50" minimum="0" maximum="1"/>    
+      <attribute id="41" name="menu">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="42" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="14" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="51">    
-    <bendpoint x="1653" y="130"/>    
+  <generalization id="43">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="44">    
+    <bendpoint x="1641" y="194"/>    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="52" name="beverage"/>      
-      <multiplicity id="53" minimum="0" maximum="1"/>    
+      <attribute id="45" name="beverages">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="46" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="19" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="54">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="22"/>  
+  <association id="47">    
+    <bendpoint x="1653" y="130"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="48" name="beverage">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="49" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="51" name="brewBehavior">        
+        <position height="0" width="0" x="68" y="-7"/>      
+      </attribute>      
+      <multiplicity id="52" minimum="0" maximum="1">        
+        <position height="0" width="0" x="68" y="-7"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="16"/>  
   </generalization>  
+  <realization id="54">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

@@ -1,9 +1,10 @@
 package edu.bu.met.cs665.assignment1;
 
+import edu.bu.met.cs665.assignment1.beverage.Beverage;
+import edu.bu.met.cs665.assignment1.condiments.Milk;
+import edu.bu.met.cs665.assignment1.condiments.Sugar;
 import java.util.Map;
-import edu.bu.met.cs665.assignment1.behaviors.*;
-import edu.bu.met.cs665.assignment1.beverage.*;
-import edu.bu.met.cs665.assignment1.condiments.*;
+
 /**.
  *  //TODO
  * 
@@ -38,10 +39,13 @@ public class VendingMachine {
     System.out.println("Brewing . . . ");
     System.out.println("Brew Behavior/Mode: " + beverage.getBrewBehavior().getBrew());
     System.out.println();
+    
+    // Decorator wraps beverage in milk object
     for (int i = menu.getMilk(); i > 0; i--) {
       beverage = new Milk(beverage);
     }
     
+    // Decorator wraps beverage in sugar object
     for (int i = menu.getSugar(); i > 0; i--) {
       beverage = new Sugar(beverage);
     }
