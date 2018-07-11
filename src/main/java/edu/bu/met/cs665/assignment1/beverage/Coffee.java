@@ -1,29 +1,25 @@
 package edu.bu.met.cs665.assignment1.beverage;
 
-import edu.bu.met.cs665.assignment1.behaviors.BrewBehavior;
-import edu.bu.met.cs665.assignment1.behaviors.BrewFast;
-import edu.bu.met.cs665.assignment1.condiments.*;
+import edu.bu.met.cs665.assignment1.behaviors.BrewDrip;
+import edu.bu.met.cs665.assignment1.beverage.AbstractBeverage;
+
 
 /**.
- *  //TODO
+ *  Coffee extends AbstractBeverage and concrete Coffee classes extend
+ *  this class. 
  * 
  *  @author Josh Bond
  *  @version Jul 7, 2018
  */
-public abstract class Coffee implements Beverage {
-  private int temperature = 150;
-  protected String description = "";
-  protected BrewBehavior brewBehavior = new BrewFast();
+public abstract class Coffee extends AbstractBeverage {
   
-  public int getTemp() {
-    return this.temperature;
+  /**
+   * Coffee Constructor that sets the default brew method. Many coffees are drip 
+   * brewed, so the most common one is set here. Concrete coffee classes will have 
+   * to set BrewBehavior only if they do not use brewdrip.
+   */
+  public Coffee() {
+    setBrewBehavior(new BrewDrip());
   }
-  
-  public String getDescription() {
-    return this.description;
-  }
-  
-  public BrewBehavior getBrewBehavior() {
-    return this.brewBehavior;
-  }
+    
 }

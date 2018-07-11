@@ -1,9 +1,7 @@
 package edu.bu.met.cs665.assignment1.beverage;
 
-import edu.bu.met.cs665.assignment1.behaviors.BrewSlow;
-
 /**.
- *  //TODO
+ *  GreenTea is a concrete implementation of Tea
  * 
  *  @author Josh Bond
  *  @version Jul 7, 2018
@@ -11,9 +9,13 @@ import edu.bu.met.cs665.assignment1.behaviors.BrewSlow;
 
 public class GreenTea extends Tea {
   
+  /**
+   * GreenTea constructor. No need to set the brew behavior here
+   * because the default behavior in Tea (immersion) is used.
+   */
   public GreenTea() {
-    description = "Green Tea";
-    brewBehavior = new BrewSlow();
+    setDescription("Green Tea");
   }
   
 }
+

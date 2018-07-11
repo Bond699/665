@@ -1,29 +1,25 @@
 package edu.bu.met.cs665.assignment1.beverage;
 
-import edu.bu.met.cs665.assignment1.behaviors.BrewBehavior;
-import edu.bu.met.cs665.assignment1.behaviors.BrewSlow;
+import edu.bu.met.cs665.assignment1.behaviors.BrewImmersion;
+import edu.bu.met.cs665.assignment1.beverage.AbstractBeverage;
+
 
 /**.
- *  //TODO
+ *  Tea extends AbstractBeverage and concrete Tea classes extend
+ *  this class.
  * 
  *  @author Josh Bond
  *  @version Jul 7, 2018
  */
 
-public abstract class Tea implements Beverage {
-  private int temperature = 200;
-  protected String description = "";
-  protected BrewBehavior brewBehavior = new BrewSlow();
+public abstract class Tea extends AbstractBeverage {
   
-  public int getTemp() {
-    return this.temperature;
-  }
-  
-  public String getDescription() {
-    return this.description;
-  }
-  
-  public BrewBehavior getBrewBehavior() {
-    return this.brewBehavior;
+  /**
+   * Tea Constructor that sets the default brew method. Many teas use immersion 
+   * (also called Steeping), so the most common one is set here. Concrete coffee 
+   * classes will have to set BrewBehavior only if they do not use brewdrip.
+   */
+  public Tea() {
+    setBrewBehavior(new BrewImmersion());
   }
 }

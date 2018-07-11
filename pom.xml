@@ -87,7 +87,7 @@
 					of "mvn checkstyle:checkstyle", but will not take effect on the execution 
 					of "mvn site" -->
 				<configuration>
-					<configLocation>config/checkstyle.xml</configLocation>
+					<configLocation>config/google_checks.xml</configLocation>
 					<failOnViolation>false</failOnViolation>
 				</configuration>
 			</plugin>

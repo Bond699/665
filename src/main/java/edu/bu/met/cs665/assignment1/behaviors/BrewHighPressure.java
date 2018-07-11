@@ -1,14 +1,15 @@
 package edu.bu.met.cs665.assignment1.behaviors;
 
 /**.
- *  //TODO
+ *  Strategy pattern component.
+ *  Espresso uses a high pressure brew, so I created this behavior.
  * 
  *  @author Josh Bond
  *  @version Jul 7, 2018
  */
 
-public class BrewFast implements BrewBehavior {
+public class BrewHighPressure implements BrewBehavior {
   public String getBrew() {
-    return "Brew Fast";
+    return "Brew High Pressure";
   }
 }

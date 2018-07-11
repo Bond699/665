@@ -1,6 +1,5 @@
 package edu.bu.met.cs665.assignment1.condiments;
 
-import edu.bu.met.cs665.assignment1.behaviors.BrewBehavior;
 import edu.bu.met.cs665.assignment1.beverage.Beverage;
 
 /**.
@@ -11,20 +10,23 @@ import edu.bu.met.cs665.assignment1.beverage.Beverage;
  */
 
 public class Sugar extends CondimentDecorator {
-  private String description = "Sugar";
+  private String name = "Sugar";
   
-  Beverage beverage;
-  
+  /**.
+   * Create a new Sugar object/condiment
+   * @param beverage to be decorated with the Sugar object
+   */
   public Sugar(Beverage beverage) {
     this.beverage = beverage;
   }
   
+  /**
+   * {@inheritDoc}
+   */
+  @Override
   public String getDescription() {
-    return beverage.getDescription() + " + [" + description + "]";
+    return beverage.getDescription() + " + [" + name + "]";
   }
-  
-  public BrewBehavior getBrewBehavior() {
-    return this.brewBehavior;
-  }
+
   
 }

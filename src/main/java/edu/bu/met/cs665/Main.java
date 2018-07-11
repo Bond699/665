@@ -3,7 +3,7 @@ package edu.bu.met.cs665;
 import edu.bu.met.cs665.assignment1.VendingMachine;
 
 /**.
- *  //TODO
+ *  The main method that allows entry into the program
  * 
  *  @author Josh Bond
  *  @version Jul 7, 2018
@@ -11,8 +11,8 @@ import edu.bu.met.cs665.assignment1.VendingMachine;
 
 public class Main {
 
-  /**
-   * Place a description of your method here.
+  /**.
+   * The main method that allows entry into the program
    * @param args none
    */
   public static void main(String[] args) {

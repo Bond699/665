@@ -11,8 +11,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewMedium" project="CS-655-Assignment-1" 
-    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewMedium.java" binary="false" 
+  <class id="2" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewDrip" project="CS-655-Assignment-1" 
+    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewDrip.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="697" y="551"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -21,9 +21,10 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewFast" project="CS-655-Assignment-1" 
-    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewFast.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewHighPressure" 
+    project="CS-655-Assignment-1" 
+    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewHighPressure.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="698" y="430"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -143,9 +144,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="15" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewVeryFast" 
-    project="CS-655-Assignment-1" 
-    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewVeryFast.java" binary="false" 
+  <class id="15" language="java" name="edu.bu.met.cs665.assignment1.behaviors.FrenchPress" project="CS-655-Assignment-1" 
+    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/FrenchPress.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1098" y="561"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -204,8 +204,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="21" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewSlow" project="CS-655-Assignment-1" 
-    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewSlow.java" binary="false" 
+  <class id="21" language="java" name="edu.bu.met.cs665.assignment1.behaviors.BrewImmersion" 
+    project="CS-655-Assignment-1" 
+    file="/CS-655-Assignment-1/src/main/java/edu/bu/met/cs665/assignment1/behaviors/BrewImmersion.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1098" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

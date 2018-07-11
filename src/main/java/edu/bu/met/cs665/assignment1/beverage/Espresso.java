@@ -1,17 +1,21 @@
 package edu.bu.met.cs665.assignment1.beverage;
 
-import edu.bu.met.cs665.assignment1.behaviors.BrewMedium;
+import edu.bu.met.cs665.assignment1.behaviors.BrewHighPressure;
 
 /**.
- *  //TODO
+ *  Espresso is a concrete implementation of Coffee.
  * 
  *  @author Josh Bond
  *  @version Jul 7, 2018
  */
 public class Espresso extends Coffee {
    
+  /**
+   * Espresso constructor, setting the description and
+   * brew behavior with the strategy pattern. 
+   */
   public Espresso() {
-    description = "Espresso";
-    brewBehavior = new BrewMedium();
+    setDescription("Espresso");
+    setBrewBehavior(new BrewHighPressure());
   }
 }
