@@ -8,7 +8,8 @@ import edu.bu.met.cs665.assignment1.behaviors.BrewBehavior;
  *  classes extend Tea and Coffee.
  * 
  *  @author Josh Bond
- *  @version Jul 7, 2018 */
+ *  @version Jul 7, 2018 
+ *  */
 public interface Beverage  {
   
   /**
