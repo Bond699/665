@@ -49,7 +49,6 @@ public class Menu {
   }
   
   // Getter and setter methods for Milk and Sugar
-  // Getters and Setters are needed for jUnit testing
   public int getMilk() {
     return this.milk;
   }
