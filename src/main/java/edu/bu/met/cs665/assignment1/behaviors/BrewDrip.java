@@ -9,6 +9,11 @@ package edu.bu.met.cs665.assignment1.behaviors;
  */
 
 public class BrewDrip implements BrewBehavior {
+  
+  /**
+   * {@inheritDoc}
+   */
+  @Override
   public String getBrew() {
     return "Brew Drip";
   }

@@ -11,7 +11,10 @@ package edu.bu.met.cs665.assignment1.behaviors;
  *  @version Jul 7, 2018
  */
 public interface BrewBehavior {
-  // Implementation returns the brew behavior text.
+  /**
+   * Gets the brew description.
+   * @return String of the brew description.
+   */
   public String getBrew(); 
   
 }
