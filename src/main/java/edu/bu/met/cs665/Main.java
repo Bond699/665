@@ -4,7 +4,7 @@ import edu.bu.met.cs665.assignment1.VendingMachine;
 
 /**.
  *  The main method that allows entry into the program
- * 
+ *
  *  @author Josh Bond
  *  @version Jul 7, 2018
  */
