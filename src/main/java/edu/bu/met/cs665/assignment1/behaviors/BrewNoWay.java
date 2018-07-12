@@ -10,6 +10,11 @@ package edu.bu.met.cs665.assignment1.behaviors;
  */
 
 public class BrewNoWay implements BrewBehavior {
+  
+  /**
+   * {@inheritDoc}
+   */
+  @Override
   public String getBrew() {
     return "";
   }
