@@ -6,8 +6,9 @@ import edu.bu.met.cs665.assignment1.condiments.Sugar;
 import java.util.Map;
 
 /**.
- *  Vending Machine is the controller class that coordinates
- *  the operation of the vending machine.
+ *  Vending Machine is the controller class that coordinates the operation of the 
+ *  vending machine. I had to add a few getters and setters to open up this class
+ *  enough for jUnit testing.
  * 
  *  @author Josh Bond
  *  @version Jul 7, 2018
@@ -16,6 +17,7 @@ import java.util.Map;
 public class VendingMachine {
   private Beverage beverage; // Becomes the user's selected beverage
   private Menu menu;
+  private boolean testMode = false;
   
   /**.
    * Constructor initalizes menu object
@@ -23,6 +25,41 @@ public class VendingMachine {
   public VendingMachine() {
     menu = new Menu();
   }
+  
+  
+  /**
+   * Sets the beverage selected by the user. Necessary for Junit
+   * @param beverage of type Beverage to set as the user's selected drink
+   */
+  public void setBeverage(Beverage beverage) {
+    this.beverage = beverage;
+  }
+  
+  /**
+   * Gets the beverage selected by the user. Necessary for Junit
+   * @return Beverage to be returned
+   */
+  public Beverage getBeverage() {
+    return beverage;
+  }
+  
+  /**
+   * Test mode for jUnit testing. If test mode is true, the vending machine
+   * will not reset and show the menu again after making a beverage.
+   * @param mode Boolean based on the test mode status.
+   */
+  public void setTestMode(boolean mode) {
+    this.testMode = mode;
+  }
+  
+  /**
+   * Getter for the menu component for jUnit testing.
+   * @return the associated Menu object
+   */
+  public Menu getMenu() {
+    return menu;
+  }
+  
   
   /**
    * Starts the operation of the vending machine.
@@ -60,7 +97,10 @@ public class VendingMachine {
     
     System.out.println("Brewing Complete: " + beverage.getDescription());
     System.out.println();
-    reset();
+    if (!testMode) {
+      reset();
+    }
+    
  
   }
   

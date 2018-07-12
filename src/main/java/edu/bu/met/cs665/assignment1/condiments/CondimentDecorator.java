@@ -14,25 +14,14 @@ import edu.bu.met.cs665.assignment1.beverage.Beverage;
  */
 
 public abstract class CondimentDecorator extends AbstractBeverage {
-  private int quantity;
   protected Beverage beverage;
- 
-   
+  
   /**
-   * Sets the number of condiments for a beverage.
-   * @param quantity integer of the number of condiments.
+   * {@inheritDoc}
    */
-  public void setQuantity(int quantity) {
-    // Even though Menu class checks for valid user input, it's a good idea
-    // to check it here too because in the future, the classes might be used differently.
-    if (quantity < 0) {
-      this.quantity = 0;
-    } else if (quantity > 3) {
-      this.quantity = 3;
-    } else {
-      this.quantity = quantity;
-    }
-    
+  @Override
+  public String getDescription() {
+    return beverage.getDescription() + " + [" + super.getDescription() + "]";
   }
    
 }

@@ -13,4 +13,5 @@ public class BrewNoWay implements BrewBehavior {
   public String getBrew() {
     return "";
   }
+
 }

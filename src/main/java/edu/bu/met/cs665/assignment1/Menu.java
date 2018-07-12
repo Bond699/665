@@ -48,13 +48,22 @@ public class Menu {
     menuObjects.put(6, new YellowTea());
   }
   
-  // Getter methods for Milk and Sugar
+  // Getter and setter methods for Milk and Sugar
+  // Getters and Setters are needed for jUnit testing
   public int getMilk() {
     return this.milk;
   }
   
   public int getSugar() {
     return this.sugar;
+  }
+  
+  public void setMilk(int milk) {
+    this.milk = milk;
+  }
+  
+  public void setSugar(int sugar) {
+    this.sugar = sugar;
   }
   
     
@@ -117,7 +126,7 @@ public class Menu {
     while (condimentQuantity < 0 || condimentQuantity > 3) {
       System.out.println(name + " Quantity (0-3): ");
         
-      // Gets keyboard input and detects non-integers since getInput excepts integers.
+      // Gets keyboard input and detects non-integers since getInput expects integers.
       try {
         condimentQuantity = getInput();
       } catch (InputMismatchException e) {

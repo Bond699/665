@@ -10,7 +10,7 @@ I made the following assumptions:
 
 
 ## Design Choices and Impact
-**Sufficiency**: The instructions were vague but I implemented the required functionality using the strategy pattern and decorator patterns.
+**Sufficiency**: The instructions were vague but I implemented the required functionality using the strategy pattern and decorator patterns. The requirements were to make 3 types of coffee and 3 types of tea and both can have 3 milk and 3 sugar condiments.
 
 **Understandability and Modularity**: The more complex a design is, the more time it can take to understand. There's a trade-off between design patterns and complexity. Design patterns do increase the number of classes and that increases the initial complexity (when someone first sees the design, they must get a handle on all of the classes). To help with understandability and modularity, I commented the code and organized the classes into cohesive packages. 
 
@@ -18,9 +18,9 @@ I made the following assumptions:
 
 **Coupling**: The strategy pattern allows for low coupling. The strategy pattern encapsulates and removes what changes to separate classes and it places an interface between the behavior and the user of the behavior. This results in low coupling.
 
-**Robustness**: The program checks for valid user input. For example, if the user enters -1, 4, or some other character not between 0 and 3 for a condiment quantity, the program asks the user to re-enter. Similarly, in the CondimentDecorator class, the setQuantity method double checks the user's input as well.
+**Robustness**: The program checks for valid user input. For example, if the user enters -1, 4, or some other character not between 0 and 3 for a condiment quantity, the program asks the user to re-enter.
 
-**Flexibility**: The program can easily be added with minimal changes to the code. For example, with the strategy pattern, to add new behaviors, simply add a new Brew Behavior that implements the BrewBehavior interface. The decorator pattern also keeps the condiment code flexible. If I used the strategy pattern for condiments, then I would have had to put a CondimentBehavior1 and CondimentBehavior2 field in the beverage classes. For each new condiment added in the future, those classes would have to be modified. Or, I could have put them in a List, but none of that seemed ideal. The decorator pattern is best suited to handle the addition of something like a condiment.
+**Flexibility**: The program can easily be added with minimal changes to the code. For example, with the strategy pattern, to add new behaviors, simply add a new Brew Behavior that implements the BrewBehavior interface. The decorator pattern also keeps the condiment code flexible. If I used the strategy pattern for condiments, then I would have had to put a CondimentBehavior1 and CondimentBehavior2 field in the beverage classes. For each new condiment added in the future, every class would have to be modified. Or, I could have put them in a List, but none of that seemed ideal. The decorator pattern is best suited to handle the addition of something like a condiment.
 
 **Reusability**: Reusable code goes together with avoiding code duplication. Usually, we have code duplication because we could not reuse code. In this program, code reuse is achieved through: 1) Inheritance when one class extends another and 2) the strategy and decorator design patterns. We can use the existing decorators and behaviors in 1,000 (or more) different beverage types without needing to duplicate the behavior and decorators. Similarly, by placing common code as high as possible in the inheritance hierarchy, we avoid having to duplicate fields and methods.
 

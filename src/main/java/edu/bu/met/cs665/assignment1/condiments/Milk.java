@@ -10,22 +10,14 @@ import edu.bu.met.cs665.assignment1.beverage.Beverage;
  */
 
 public class Milk extends CondimentDecorator {
-  private String name = "Milk";
-     
+  
   /**.
    * Create a new Milk object/condiment
    * @param beverage to be decorated with the Milk object
    */
   public Milk(Beverage beverage) {
+    super.setDescription("Milk");
     this.beverage = beverage;
   }
-  
-  /**
-   * {@inheritDoc}
-   */
-  @Override
-  public String getDescription() {
-    return beverage.getDescription() + " + [" + name + "]";
-  }
-   
+     
 }
