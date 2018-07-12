@@ -10,14 +10,14 @@ package edu.bu.met.cs665.assignment1.behaviors;
  *  @version Jul 7, 2018
  */
 
-public class FrenchPress implements BrewBehavior {
+public class BrewFrenchPress implements BrewBehavior {
   
   /**
    * {@inheritDoc}
    */
   @Override
   public String getBrew() {
-    return "French Press";
+    return "Brew French Press";
   }
 
 }

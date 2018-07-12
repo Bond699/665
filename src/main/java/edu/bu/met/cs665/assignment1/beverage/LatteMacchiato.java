@@ -1,6 +1,6 @@
 package edu.bu.met.cs665.assignment1.beverage;
 
-import edu.bu.met.cs665.assignment1.behaviors.FrenchPress;
+import edu.bu.met.cs665.assignment1.behaviors.BrewFrenchPress;
 
 /**.
  *  Latte Macchiato is a concrete implementation of Coffee
@@ -17,6 +17,6 @@ public class LatteMacchiato extends Coffee {
    */
   public LatteMacchiato() {
     setDescription("Latte Macchiato");
-    setBrewBehavior(new FrenchPress());
+    setBrewBehavior(new BrewFrenchPress());
   }
 }

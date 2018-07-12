@@ -1,6 +1,6 @@
 package edu.bu.met.cs665.assignment1.beverage;
 
-import edu.bu.met.cs665.assignment1.behaviors.FrenchPress;
+import edu.bu.met.cs665.assignment1.behaviors.BrewFrenchPress;
 
 /**.
  *  Yellow Tea is a concrete implementation of Tea.
@@ -21,7 +21,7 @@ public class YellowTea extends Tea {
    */
   public YellowTea() {
     setDescription("Yellow Tea");
-    setBrewBehavior(new FrenchPress());
+    setBrewBehavior(new BrewFrenchPress());
   }
     
 }

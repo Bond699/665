@@ -60,7 +60,7 @@ public class TestVendingMachine {
     vm.getMenu().setMilk(2);
     Assert.assertEquals(2, vm.getMenu().getMilk());
     vm.setBeverage(new LatteMacchiato());
-    Assert.assertEquals("French Press", vm.getBeverage().getBrewBehavior().getBrew());
+    Assert.assertEquals("Brew French Press", vm.getBeverage().getBrewBehavior().getBrew());
     vm.brew();
     Assert.assertEquals("Latte Macchiato + [Milk] + [Milk] + [Sugar] + [Sugar]", 
         vm.getBeverage().getDescription());
@@ -85,7 +85,7 @@ public class TestVendingMachine {
     vm.getMenu().setMilk(2);
     Assert.assertEquals(2, vm.getMenu().getMilk());
     vm.setBeverage(new YellowTea());
-    Assert.assertEquals("French Press", vm.getBeverage().getBrewBehavior().getBrew());
+    Assert.assertEquals("Brew French Press", vm.getBeverage().getBrewBehavior().getBrew());
     vm.brew();
     Assert.assertEquals("Yellow Tea + [Milk] + [Milk] + [Sugar] + [Sugar] + [Sugar]", 
         vm.getBeverage().getDescription());     
