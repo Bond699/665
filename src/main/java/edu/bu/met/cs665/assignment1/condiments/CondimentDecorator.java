@@ -14,6 +14,10 @@ import edu.bu.met.cs665.assignment1.beverage.Beverage;
  */
 
 public abstract class CondimentDecorator extends AbstractBeverage {
+  // This is the beverage that will be passed into the concrete classes. 
+  // This beverage will be wrapped with the Milk or Sugar which extends CondimentDecorator,
+  // which extends Abstract Beverage. On the class diagram, this is why the 
+  // CondimentDecorator class has a relationship with Beverage (interface) and AbstractBeverage
   protected Beverage beverage;
   
   /**

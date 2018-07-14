@@ -4,6 +4,7 @@ The Vending Machine uses the strategy pattern and the decorator pattern. The str
 
 I made the following assumptions:
 
+ - **Brew**: Both coffee and tea and be brewed. 
  -  **Functionality**: Not all functionality of the machine needs to be shown since the point of the assignment is to demonstrate at least one design pattern. Thus, this implementation does not address coins or money, cup sizes, and many other functions that a real life vending machine has.
  - **Sugar/Milk**: Each beverage (whether coffee or tea) can have 0-3 sugars and 0-3 milk each. 
  - **Research on Brew Methods**: I don't drink coffee or tea. I did some basic research, but I'm not claiming to be an expert in either coffee or tea. I found that Espresso is brewed with high pressure. Tea is usually brewed with immersion, sometimes called "steeping". The most common way of brewing coffee is drip brewing. I found that both coffee and tea can be made with a brew method called french press: https://www.leaf.tv/articles/tea-press-vs-tea-steeping/. Thus, my brew methods are BrewHighPressure, BrewImmersion, BrewDrip, Brew FrenchPress, and BrewNoWay (no brewing at all).
@@ -14,7 +15,7 @@ I made the following assumptions:
 
 **Understandability and Modularity**: The more complex a design is, the more time it can take to understand. There's a trade-off between design patterns and complexity. Design patterns do increase the number of classes and that increases the initial complexity (when someone first sees the design, they must get a handle on all of the classes). To help with understandability and modularity, I commented the code and organized the classes into cohesive packages. 
 
-**Cohesion**: Similar classes are grouped together. For example, VendingMachine and Menu are under Assignment 1. Then, the behaviors are grouped together under Behaviors package. The same applies to Beverages and Condiments.
+**Cohesion**: Classes are divided along cohesive lines. Similar classes are grouped together. For example, VendingMachine and Menu are under Assignment 1. Then, the behaviors are grouped together under Behaviors package. The same applies to Beverages and Condiments.
 
 **Coupling**: The strategy pattern allows for low coupling. The strategy pattern encapsulates and removes what changes to separate classes and it places an interface between the behavior and the user of the behavior. This results in low coupling.
 

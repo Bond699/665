@@ -16,7 +16,7 @@ public abstract class Coffee extends AbstractBeverage {
   /**
    * Coffee Constructor that sets the default brew method. Many coffees are drip 
    * brewed, so the most common one is set here. Concrete coffee classes will have 
-   * to set BrewBehavior only if they do not use brewdrip.
+   * to set BrewBehavior only if they do *not* use brewdrip.
    */
   public Coffee() {
     setBrewBehavior(new BrewDrip());

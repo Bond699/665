@@ -32,7 +32,7 @@ public class Menu {
   private int sugar;
   
   // The user's beverage selection
-  Beverage beverage;
+  private Beverage beverage;
   
   /**
    * Constructor performs Menu map.

@@ -17,5 +17,4 @@ public class Americano extends Coffee {
   public Americano() {
     setDescription("Americano");
   }
- 
 }
