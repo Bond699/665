@@ -16,8 +16,8 @@ public abstract class Tea extends AbstractBeverage {
   
   /**
    * Tea Constructor that sets the default brew method. Many teas use immersion 
-   * (also called Steeping), so the most common one is set here. Concrete coffee 
-   * classes will have to set BrewBehavior only if they do not use brewdrip.
+   * (also called Steeping), so the most common one is set here. Concrete tea 
+   * classes will have to set BrewBehavior only if they do *not* use brew immersion.
    */
   public Tea() {
     setBrewBehavior(new BrewImmersion());

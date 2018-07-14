@@ -97,6 +97,8 @@ public class VendingMachine {
     
     System.out.println("Brewing Complete: " + beverage.getDescription());
     System.out.println();
+    
+    // This makes the jUnit test possible so the menu doesn't restart.
     if (!testMode) {
       reset();
     }
